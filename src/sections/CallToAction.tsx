@@ -19,7 +19,7 @@ export const CallToAction = () => {
   const translateY = useTransform(scrollYProgress, [0, 1], [150, -150]);
 
   return (
-    <section ref={sectionRef} className="bg-gradient-to-b from-white to-[#D2DCFF] py-24 overflow-x-clip">
+    <section ref={sectionRef} className="bg-gradient-to-b from-white to-[#f5622b] py-24 overflow-x-clip">
       <div className="container">
         <div className="section-heading relative">
           <h2 className="section-title">Sign up for free</h2>
@@ -45,12 +45,12 @@ export const CallToAction = () => {
         </div>
         <div className="flex gap-2 mt-10 justify-center">
           <button className="btn btn-primary">Get for free</button>
-          <button className="btn btn-text gap-1">
+          {/* <button className="btn btn-text gap-1">
             <span>
               Learn more
             </span>
             <ArrowRight className="h-5 w-5" />
-          </button>
+          </button> */}
         </div>
       </div>
     </section>
