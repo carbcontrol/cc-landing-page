@@ -101,8 +101,8 @@ const TestimonialCol = (props: {
               imageSrc,
               name,
               username
-            }) => (
-              <div className="card">
+            }, index) => (
+              <div className="card" key={index}>
                 <div className="">{text}</div>
                 <div className="flex items-center gap-2 mt-5">
                   <Image
@@ -138,9 +138,9 @@ export const Testimonials = () => {
             <p className="section-description mt-5">Effortlessly turn your ideas into a fully functional, responsive, no-code SaaS website in just minutes with the set of free components for Framer.</p>
           </div>
           <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[738px] overflow-hidden">
-            <TestimonialCol testimonials={firstCol} duration={15}/>
-            <TestimonialCol testimonials={secondCol} className="hidden md:block" duration={18}/>
-            <TestimonialCol testimonials={thirdCol} className="hidden lg:block" duration={20}/>
+            <TestimonialCol testimonials={firstCol} duration={15} />
+            <TestimonialCol testimonials={secondCol} className="hidden md:block" duration={18} />
+            <TestimonialCol testimonials={thirdCol} className="hidden lg:block" duration={20} />
           </div>
         </div>
       </section>
