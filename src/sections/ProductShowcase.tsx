@@ -1,6 +1,6 @@
 "use client";
 
-import productImage from "@/assets/product-image.png"
+import productImage from "@/assets/meal_plan.png"
 import pyramindImage from "@/assets/pyramid.png"
 import tubeImage from "@/assets/tube.png"
 import Image from "next/image";
@@ -23,7 +23,7 @@ export const ProductShowcase = () => {
         <div className="container">
           <div className="section-heading">
             <div className="flex justify-center">
-              <div className="tag">Boost your productivity</div>
+              <div className="tag text-[#e43e00]">Boost your productivity</div>
             </div>
             <h2 className="section-title mt-5">A more effective way to track progress</h2>
             <p className="section-description mt-5">
@@ -31,11 +31,18 @@ export const ProductShowcase = () => {
             </p>
           </div>
           <div className="relative">
-            <Image
-              src={productImage}
-              alt="Product image"
-              className="mt-10"
-            />
+            <div className="flex flex-col gap-20 items-center justify-center mt-10 lg:flex-row lg:items-end lg:justify-center">
+              <Image
+                src={productImage}
+                alt="Product image"
+                className="mt-10"
+              />
+              <Image
+                src={productImage}
+                alt="Product image"
+                className="mt-10"
+              />
+            </div>
             <motion.img
               src={pyramindImage.src}
               alt="Pyramind image"
