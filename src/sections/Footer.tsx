@@ -18,18 +18,20 @@ export const Footer = () => {
             height={200}
             className=""
           />
-          <p className="mt-6">&copy; 2024 Your Company, Inc. All rights reserved.</p>
         </div>
-        <div className="flex ml-40 flex-col gap-3">
+        <div className="flex ml-20 flex-col gap-3">
           <div className="text-xl">Address</div>
           <div>4763 Rambling Drive,</div>
           <div>Troy Michigan 48098</div>
         </div>
-        <nav className="flex ml-40 flex-col gap-3">
+        <nav className="flex ml-20 flex-col gap-3">
           <div className="text-xl">Policy</div>
           <a href="#" >Application Policy</a>
           <a href="#" >Account Deletion</a>
         </nav>
+      </div>
+      <div className="container flex flex-col items-center">
+        <p className="mt-6">&copy; 2024 Carb Control, Inc. All rights reserved.</p>
       </div>
     </footer>);
 };
