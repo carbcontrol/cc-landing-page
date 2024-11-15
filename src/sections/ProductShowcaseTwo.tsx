@@ -2,8 +2,8 @@
 
 import productImage from "@/assets/scan-track.png"
 import mealEmptyImage from "@/assets/manual-track.png"
-import pyramindImage from "@/assets/pyramid.png"
-import tubeImage from "@/assets/tube.png"
+import pyramindImage from "@/assets/pyramid_two.png"
+import tubeImage from "@/assets/tube_two.png"
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";

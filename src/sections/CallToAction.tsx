@@ -24,7 +24,7 @@ export const CallToAction = () => {
         <div className="section-heading relative">
           <h2 className="section-title">Sign up for free</h2>
           <p className="section-description mt-5">Celebrate the joy of accomplishment with an app designed to track your progress and motivate your efforts.</p>
-          <motion.img
+          {/* <motion.img
             src={startImage.src}
             alt="star image"
             width={360}
@@ -32,7 +32,7 @@ export const CallToAction = () => {
             style={{
               translateY,
             }}
-          />
+          /> */}
           <motion.img
             src={springImage.src}
             alt="spring image"
